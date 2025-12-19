@@ -61,4 +61,29 @@ Follow these instructions to set up the project locally on your machine.
 5.  **Open your browser**
     Navigate to `http://localhost:5173` to view the dashboard.
 
-## 📂 Project Structure
+## 🔍 How It Works
+
+1.  **Data Fetching**: On load, the app fetches the bounding box coordinates for Delhi NCR from the WAQI API to identify all active stations.
+2.  **Data Sanitization**: The system strictly validates coordinate data (Lat/Lng) to prevent map crashes.
+3.  **Visualization**:
+    * **Map**: Renders circular markers for each station. Clicking a marker triggers a detailed fetch for that specific sensor's data.
+    * **Simulation**: Since the free API tier does not provide hourly historical history, the `generateMockHistory` function creates a realistic diurnal pattern seeded by the *actual* live AQI reading to demonstrate the trend visualization capabilities.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1.  Fork the project
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+* Data provided by the [World Air Quality Index Project](https://aqicn.org/)
+* Map tiles by [CartoDB](https://carto.com/)
