@@ -1,8 +1,8 @@
-# AeroNarrative: Air Quality Dashboard
+# AeroMonitor: Air Quality Dashboard
 
 ![Status](https://img.shields.io/badge/Status-Live-emerald) ![License](https://img.shields.io/badge/License-MIT-blue) ![Stack](https://img.shields.io/badge/Stack-React_|_Tailwind_|_Recharts-blueviolet)
 
-**AeroNarrative** is a sophisticated, real-time air quality monitoring dashboard designed specifically for the Delhi NCR region. It transforms complex environmental data into actionable insights through interactive visualizations, geospatial mapping, and intelligent storytelling.
+**AeroMonitor** is a sophisticated, real-time air quality monitoring dashboard designed specifically for the Delhi NCR region. It transforms complex environmental data into actionable insights through interactive visualizations, geospatial mapping, and intelligent storytelling.
 
 ## 🌟 Key Features
 
